@@ -80,7 +80,7 @@ for (var i = 0; i < squares.length; i++) {
       this.style.backgroundColor = "#232323";
       messageDisplay.classList.remove("green");
       messageDisplay.classList.add("red");
-      messageDisplay.textContent = "Oops!";
+      messageDisplay.textContent = "You got it Wrong!";
     }
   });
 }
